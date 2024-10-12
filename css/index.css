@@ -6,16 +6,19 @@ body {
     padding: 20px;
     line-height: 1.6;
 }
+
 h1 {
     color: #76ff03; /* Ярко-зеленый цвет для заголовка */
     text-align: center;
     margin-bottom: 20px;
 }
+
 h2 {
     color: #ffffff; /* Белый цвет для подзаголовков */
     border-bottom: 2px solid #76ff03; /* Зеленая нижняя граница */
     padding-bottom: 5px;
 }
+
 .section {
     margin: 20px 0;
     padding: 20px;
@@ -24,22 +27,27 @@ h2 {
     background-color: #1e1e1e; /* Темный фон для секций */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
+
 ul {
-    list-style-type: square;
+    list-style-type: square; /* Квадратные маркеры для списков */
     padding-left: 20px;
 }
+
 a {
     color: #76ff03; /* Ярко-зеленый цвет для ссылок */
     text-decoration: none;
 }
+
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Подчеркивание при наведении на ссылку */
 }
+
 .footer {
     margin-top: 40px;
-    font-style: italic;
-    text-align: center;
+    font-style: italic; /* Курсив для текста в подвале */
+    text-align: center; /* Центрирование текста в подвале */
 }
+
 .footer p {
-    margin: 10px 0;
+    margin: 10px 0; /* Отступы для параграфов в подвале */
 }
